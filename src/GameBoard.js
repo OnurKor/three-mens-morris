@@ -11,9 +11,9 @@ const player2 = (
 const GameBoard = ({ board, winner, selected_cell, dispatch }) => {
   const displayPlayer = (player) => {
     if (player === "a") {
-      return "Player A";
+      return <span style={{color: "black"}}>* Black Castle *</span>;
     } else {
-      return "Player B";
+      return <span style={{color: "white"}}>* White Castle *</span>;
     }
   };
 
@@ -22,7 +22,7 @@ const GameBoard = ({ board, winner, selected_cell, dispatch }) => {
       <h1 style={{ color: "white" }}>WELCOME!</h1>
       <h1 style={{ color: "white" }}>Three Men's Morris</h1>
       {winner && (
-        <h1 style={{ color: "green", fontSize: "45px" }}>Winner: {displayPlayer(winner)}</h1>
+        <h1 style={{ color:"lightgreen", fontSize: "40px" }}>Winner: {displayPlayer(winner)}</h1>
       )}
 
       <div className={`board ${winner ? "disabled" : ""}`}>
