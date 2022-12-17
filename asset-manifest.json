@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/three-mens-morris/static/css/main.c51e114e.css",
-    "main.js": "/three-mens-morris/static/js/main.3122cff0.js",
+    "main.css": "/three-mens-morris/static/css/main.e6a4b426.css",
+    "main.js": "/three-mens-morris/static/js/main.1ec4ff5c.js",
     "static/media/white.png": "/three-mens-morris/static/media/white.5fdf64f1fcf38cb52a8f.png",
     "static/media/black.webp": "/three-mens-morris/static/media/black.d1da5cbe3ae899c3fb2f.webp",
     "index.html": "/three-mens-morris/index.html",
-    "main.c51e114e.css.map": "/three-mens-morris/static/css/main.c51e114e.css.map",
-    "main.3122cff0.js.map": "/three-mens-morris/static/js/main.3122cff0.js.map"
+    "main.e6a4b426.css.map": "/three-mens-morris/static/css/main.e6a4b426.css.map",
+    "main.1ec4ff5c.js.map": "/three-mens-morris/static/js/main.1ec4ff5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c51e114e.css",
-    "static/js/main.3122cff0.js"
+    "static/css/main.e6a4b426.css",
+    "static/js/main.1ec4ff5c.js"
   ]
 }
